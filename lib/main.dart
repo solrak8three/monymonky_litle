@@ -1,20 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:monymonky_litle/app.dart';
 
 void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('MonyMonky Litle!'),
-        ),
-      ),
-    );
-  }
+  runApp(const MonyMonkyLittle());
 }
