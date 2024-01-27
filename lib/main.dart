@@ -1,6 +1,11 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:monymonky_litle/app.dart';
 
 void main() {
-  runApp(const MonyMonkyLittle());
+  runApp(
+      const ProviderScope(
+          child: MonyMonkyLittle()
+      ),
+  );
 }
